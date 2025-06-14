@@ -1,0 +1,89 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologías de Nombrado: BEM y camelCase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Metodologías de Nombrado: BEM y camelCase</h1>
+    </header>
+    <main class="main">
+        <section class="introduction">
+            <h2 class="introduction__title">Introducción</h2>
+            <p class="introduction__text">Esta página tiene como propósito explicar las metodologías de nombrado BEM y camelCase, mostrando sus ventajas y ejemplos de aplicación en el desarrollo web.</p>
+        </section>
+        
+        <section class="bem">
+            <h2 class="bem__title">¿Qué es BEM?</h2>
+            <p class="bem__text">BEM (Block Element Modifier) es una metodología de nombrado para CSS que ayuda a estructurar y organizar el código.</p>
+            <ol class="bem__advantages">
+                <li>Facilita la lectura del código.</li>
+                <li>Mejora la mantenibilidad.</li>
+                <li>Promueve la reutilización de componentes.</li>
+            </ol>
+            <ul class="bem__examples">
+                <li><code>.block</code></li>
+                <li><code>.block__element</code></li>
+                <li><code>.block--modifier</code></li>
+            </ul>
+        </section>
+        
+        <section class="camelcase">
+            <h2 class="camelcase__title">¿Qué es camelCase?</h2>
+            <p class="camelcase__text">camelCase es una convención de escritura donde las palabras se unen sin espacios y cada palabra después de la primera comienza con mayúscula.</p>
+            <ol class="camelcase__usage">
+                <li>Nombres de variables en JavaScript.</li>
+                <li>Identificadores en CSS.</li>
+                <li>Funciones en lenguajes de programación.</li>
+            </ol>
+            <ul class="camelcase__examples">
+                <li><code>miVariableEjemplo</code></li>
+                <li><code>nombreUsuario</code></li>
+                <li><code>obtenerDatos()</code></li>
+            </ul>
+        </section>
+
+        <section class="comparison">
+            <h2 class="comparison__title">Comparación entre BEM y camelCase</h2>
+            <table class="comparison__table">
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>BEM</th>
+                        <th>camelCase</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estructura</td>
+                        <td>Modular</td>
+                        <td>Lineal</td>
+                    </tr>
+                    <tr>
+                        <td>Usabilidad</td>
+                        <td>Componentes CSS</td>
+                        <td>Variables/Funciones</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="comparison__text">Usa BEM para organizar CSS y camelCase para variables y funciones.</p>
+        </section>
+
+        <section class="application">
+            <h2 class="application__title">Aplicación Práctica</h2>
+            <p class="application__text">A continuación, se muestra un ejemplo visual utilizando BEM en CSS.</p>
+            <div class="card card--primary">
+                <h3 class="card__title">Título del Bloque</h3>
+                <p class="card__content">Contenido del bloque utilizando BEM.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Desarrollado como parte de la Tarea 3. Institución: IESTP Argentina.</p>
+    </footer>
+</body>
+</html>
+

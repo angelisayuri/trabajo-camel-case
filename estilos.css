@@ -1,0 +1,124 @@
+/* Configuración base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header__title {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main */
+.main {
+    padding: 2em;
+}
+
+.introduction,
+.bem,
+.camelcase,
+.comparison,
+.application {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.introduction__title,
+.bem__title,
+.camelcase__title,
+.comparison__title,
+.application__title {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+/* BEM Section */
+.bem__advantages,
+.bem__examples,
+.camelcase__usage,
+.camelcase__examples {
+    margin: 0.5em 0;
+}
+
+/* Comparación */
+.comparison__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+.comparison__table th,
+.comparison__table td {
+    border: 1px solid #ddd;
+    padding: 0.8em;
+    text-align: left;
+}
+
+.comparison__table th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.comparison__text {
+    margin-top: 1em;
+    font-style: italic;
+}
+
+/* Application */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #f1f1f1;
+}
+
+.card--primary {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.card__title {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.footer__text {
+    margin: 0;
+}
